@@ -1,0 +1,49 @@
+---
+description: When working on backend development
+globs: 
+alwaysApply: false
+---
+# Backend Architecture
+
+## Technology Stack
+* Programming language: Python (with FastAPI)
+* Database: PostgreSQL
+* API framework: FastAPI
+* Authentication: JWT-based authentication (with PyJWT)
+* LLM integration: LangChain, LangSmith
+* API gateway: NGINX
+* Containerization: Docker
+* Cloud platform: AWS
+
+## Endpoints
+* `/api/v1/users`: User management endpoint
+* `/api/v1/queries`: Query handling endpoint
+* `/api/v1/knowledge-graph`: Knowledge graph endpoint
+
+## Database Schema
+* Users table: stores user information
+* Queries table: stores user queries
+* KnowledgeGraph table: stores knowledge graph data
+
+## Authentication
+* JWT-based authentication
+
+## LLM Integration
+* LangChain: used for LLM interactions
+* LangSmith: used for monitoring and evaluating AI performance
+
+## API Gateway
+* NGINX: used as a reverse proxy and API gateway
+
+## Service Communication
+* REST APIs: used for communication between microservices
+
+## Error Handling
+* Error types: validation errors, database errors, and API errors
+* Logging: logs errors to a centralized logging service
+* Notification: sends error notifications to developers via email
+
+## Security Measures
+* Rate limiting: limits API requests to prevent abuse
+* IP blocking: blocks suspicious IP addresses
+* Encryption: encrypts sensitive data using SSL/TLS

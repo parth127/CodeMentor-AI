@@ -1,0 +1,29 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# DevOps Deployment
+
+## CI/CD Pipeline
+* Jenkins: used for automating the CI/CD pipeline
+* Docker: used for containerizing the application
+* AWS: used for deploying the application
+
+## Deployment Strategy
+* Continuous Integration: automated testing and building of the application
+* Continuous Deployment: automated deployment of the application to production
+
+## Monitoring and Logging
+* Prometheus: used for monitoring application metrics
+* Grafana: used for visualizing application metrics
+* ELK Stack: used for logging and log analysis
+
+## Rollback Strategy
+* Automated rollback to previous version in case of errors or issues
+* Manual rollback option available for emergency situations
+
+## Security Considerations
+* Encryption: used for encrypting sensitive data
+* Access controls: used for controlling access to application resources
+* Auditing mechanisms: used for logging and tracking application activity

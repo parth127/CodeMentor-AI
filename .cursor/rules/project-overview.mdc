@@ -1,0 +1,44 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+
+# Project Overview
+
+## Project Description
+* CodeMentor AI is an AI-powered knowledge assistant designed to help developers quickly find solutions, generate code snippets, and understand complex programming concepts. It integrates with various developer tools and provides real-time responses using LLMs.
+
+## Objectives
+* Develop an AI-powered knowledge assistant for developers
+* Provide real-time responses to user queries
+* Integrate with various developer tools
+* Supports natural language queries.
+* Generates code snippets, documentation, and explanations.
+
+## Technologies
+
+* Backend: FastAPI, Python, SQL
+* Frontend: Next.js, Three.js
+* LLM Tools: LangChain, LangSmith, LangServe, LangGraph, CrewAI
+* Cloud & DevOps: AWS, Docker, Jenkins, Git
+* Testing & Documentation: Postman, Swagger
+
+## Features
+* AI chatbot for developers
+* Interactive knowledge graph
+* CI/CD pipeline for deployment
+
+## Folder Structure
+```markdown
+codementor-ai
+├── /server
+├── /client
+├── /.cursor/rules
+├── /docs
+└── /tests

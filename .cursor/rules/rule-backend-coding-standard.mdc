@@ -1,0 +1,84 @@
+---
+description: 
+globs: **/*.py
+alwaysApply: false
+---
+# Backend Coding Standards
+
+## General Principles
+
+* Code must be readable, maintainable, and efficient
+* Follow the principle of Don't Repeat Yourself (DRY)
+* Use meaningful variable names and follow a consistent naming convention
+
+## Folder Structure
+
+* `server/`: root directory for the project
+* `server/routes/`: directory for route handlers
+	+ `__init__.py`: initializes the routes module
+	+ `user_routes.py`: defines routes for user-related endpoints
+	+ `product_routes.py`: defines routes for product-related endpoints
+* `server/models/`: directory for database models
+	+ `__init__.py`: initializes the models module
+	+ `user_model.py`: defines the user database model
+	+ `product_model.py`: defines the product database model
+* `server/services/`: directory for business logic services
+	+ `__init__.py`: initializes the services module
+	+ `user_service.py`: defines services for user-related operations
+	+ `product_service.py`: defines services for product-related operations
+* `server/utils/`: directory for utility functions
+	+ `__init__.py`: initializes the utils module
+	+ `auth_utils.py`: defines utility functions for authentication
+	+ `data_utils.py`: defines utility functions for data processing
+
+## Code Organization
+
+* Use a consistent naming convention for files and modules
+* Keep each file focused on a single responsibility
+* Use imports to organize dependencies between modules
+
+## Syntax and Formatting
+
+* Use 4 spaces for indentation
+* Use consistent spacing around operators and after commas
+* Use semicolons to end statements
+* Use curly braces for code blocks
+
+## Error Handling
+
+* Use try-catch blocks to handle errors
+* Log errors with meaningful information
+* Return descriptive error messages to the client
+
+## Security
+
+* Validate and sanitize user input
+* Use secure protocols for data transmission (HTTPS)
+* Hash and salt sensitive data (passwords)
+* Use secure storage for sensitive data
+
+## Database
+
+* Use a consistent naming convention for database tables and columns
+* Use indexes to improve query performance
+* Use transactions to ensure data consistency
+* Use prepared statements to prevent SQL injection
+
+## API
+
+* Use RESTful principles for API design
+* Use descriptive endpoint names and HTTP methods
+* Use JSON for data serialization
+* Use authentication and authorization mechanisms to secure API endpoints
+
+## Testing
+
+* Write unit tests for individual functions and modules
+* Write integration tests for API endpoints and database interactions
+* Use a testing framework to run and report tests
+
+## Commit Messages and API Documentation
+
+* Use descriptive commit messages that follow a consistent format
+* Use API documentation tools to generate documentation for API endpoints
+* Keep documentation up-to-date with changes to the codebase

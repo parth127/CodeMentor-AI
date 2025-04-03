@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# LLM Integration
+
+## LangChain
+* Used for chaining multiple LLM interactions
+* Enables contextual responses to user queries
+
+## LangSmith
+* Used for monitoring and evaluating AI performance
+* Provides insights into LLM behavior and accuracy
+
+## LangServe
+* Used for deploying the AI assistant as an API service
+* Enables scalable and secure deployment of LLM models
+
+## LangGraph
+* Used for creating a structured conversational flow
+* Enables the AI assistant to engage in meaningful conversations with users
+
+## CrewAI
+* Used for simulating multiple AI agents handling different tasks
+* Enables the AI assistant to handle complex queries and tasks
+
+## LLM Model Details
+* Model architecture: Transformer-based
+* Training data: Large-scale conversational dataset
+* Performance metrics: Accuracy, F1-score, ROUGE score
+
+## Integration APIs
+* API endpoint: `/api/llm/infer`
+* Request format: JSON
+* Response format: JSON
+* Authentication mechanism: API key

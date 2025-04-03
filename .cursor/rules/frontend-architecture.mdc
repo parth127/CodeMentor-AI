@@ -1,0 +1,42 @@
+---
+description: When woking on front end development
+globs: 
+alwaysApply: false
+---
+# Frontend Architecture
+
+## Technology Stack
+* Frontend framework: Next.js
+* UI library: React
+* Data visualization library: Three.js
+* State management library: Redux
+* Routing library: React Router
+* CSS framework: Tailwind CSS
+* JavaScript version: ES6+
+
+## UI Structure
+* Header: contains navigation menu
+* Main Content: contains query input field and knowledge graph visualization
+* Footer: contains copyright information
+
+## Component Hierarchy
+* App: top-level component
+* Header: child component of App
+* MainContent: child component of App
+* Footer: child component of App
+
+## Three.js Implementation
+* Used for knowledge graph visualization
+* Integrates with LangChain for real-time updates
+
+## State Management
+* Uses Redux for state management
+* Implements actions, reducers, and stores for managing application state
+
+## Event Handling
+* Uses event listeners for handling user interactions
+* Implements API call handling for querying LangChain
+
+## Routing
+* Uses React Router for client-side routing
+* Implements routes for navigating between application pages
